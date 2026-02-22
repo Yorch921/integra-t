@@ -1,0 +1,19 @@
+.org-chart-container {
+    max-width: 800px;
+    margin: var(--spacing-2xl) auto 0;
+    text-align: center;
+}
+
+.org-chart-img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-gray-200);
+}
+
+@media (max-width: 768px) {
+    .org-chart-container {
+        max-width: 100%;
+    }
+}
