@@ -41,3 +41,6 @@ lerna-debug.log*
 .vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Claude Code
+.claude/
